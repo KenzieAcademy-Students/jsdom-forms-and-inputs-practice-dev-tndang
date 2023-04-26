@@ -7,6 +7,18 @@ input, textarea {
     margin-bottom: 20px;
 }
 
+input:invalid {
+    border: 2px dashed red;
+}
+
+input:invalid:required {
+    background-image: linear-gradient(to right, pink, yellow);
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
 .card {
     width: 300px;
     min-width: 300px;
